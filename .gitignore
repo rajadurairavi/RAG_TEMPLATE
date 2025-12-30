@@ -1,0 +1,38 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# ===============================
+# Virtual Environment
+# ===============================
+venv/
+.env
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+.vscode/
+.idea/
+
+# ===============================
+# Vector Store (OPTIONAL)
+# ===============================
+# If you want reproducible builds → ignore FAISS
+# If you want faster demos → keep FAISS
+# Choose ONE
+
+faiss_index/
+*.faiss
+*.pkl
+
+# ===============================
+# Secrets
+# ===============================
+.env
+config/secrets.py
